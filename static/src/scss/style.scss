@@ -1,30 +1,35 @@
-// $o-community-color: #1f202b !default;
-// $o-brand-odoo: $o-community-color !default;
-// $o-brand-primary: $o-community-color !default;
+a, .o_field_widget.o_field_many2one .o_external_button{
+    color: #3b8d99 !important;
+}
 
-// body{
-//     font-family: 'Poppins', sans-serif !important;
-// }
 
 .o_main_navbar {
     font-family: 'Poppins', sans-serif !important;
 //     background-color: #1f202b !important;
     color: #e9f0f2 !important;
+    border-color: #aa4b6b;
     background: #aa4b6b;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
+.btn-fill-primary, .btn-primary{
+    background-color: #3b8d99 !important;
+    border-color: #3b8d99 !important;
+}
+
+.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled:after, .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled:before {
+    border-left-color: #3b8d99 !important;
+}
+
+.o_required_modifier.o_input, .o_required_modifier .o_input {
+    background-color: #7fd0db !important;
+    border-color: #7fd0db !important;
+}
+
+.fa {
+    color: white;
+}
 
 
-// .o_list_button_add{
-// font-family: 'Poppins', sans-serif !important;
-//     background-color: #1f202b !important;
-//     color: #e9f0f2 !important;
-// }
-//
-// .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled {
-//     background-color: #1f202b;
-//     color: #fff;
-// }
