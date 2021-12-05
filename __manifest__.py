@@ -13,7 +13,7 @@
     ],
     'assets': {
         'web.assets_backend': {
-            '/odoo_theme_backend/static/src/scss/theme_style.scss',
+            '\gradient-theme-odoo15\static\src\scss\style.scss',
         },
     },
     'installable': True,
